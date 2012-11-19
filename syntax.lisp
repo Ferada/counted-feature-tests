@@ -91,7 +91,7 @@
 
 (defvar *original-readtable* NIL)
 
-(defvar *restore-counted-feature-tests-syntax* NIL)
+(defvar *restore-reader-syntax* NIL)
 
 (defmacro disable-counted-feature-tests-syntax ()
   '(eval-when (:compile-toplevel :load-toplevel :execute)
